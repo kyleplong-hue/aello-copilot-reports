@@ -715,7 +715,7 @@ function render(){
   </div>`;
 
   // Footer
-  document.getElementById('footer-disc').innerHTML = str(t.footer_disc)();
+  document.getElementById('footer-disc').innerHTML = str(t.footer_disc);
   document.getElementById('footer-valid').textContent = str(t.footer_valid);
   document.getElementById('footer-brand').textContent = typeof t.footer_brand === 'function' ? t.footer_brand() : t.footer_brand;
 }
