@@ -681,11 +681,11 @@ function render(){
       <div class="lost-callout">
         <div class="icon">⚠️</div>
         <div>
-          <div class="num">${str(t.lost_leads)(c.missedLeads)}</div>
-          <div class="desc">${str(t.lost_deals)(c.lostDeals)}</div>
+          <div class="num">${t.lost_leads(c.missedLeads)}</div>
+          <div class="desc">${t.lost_deals(c.lostDeals)}</div>
         </div>
       </div>
-      <div class="emotional-ctx">${str(t.emotional)(c.dLeak)}</div>
+      <div class="emotional-ctx">${t.emotional(c.dLeak)}</div>
     </section>
 
     <section class="section">
